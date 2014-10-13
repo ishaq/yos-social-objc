@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/ishaq/yos-social-objc.git", :tag => s.version.to_s }
 
-  s.source_files  = 'Source', 'Source/**/*.{h,m}'
+  s.source_files  = 'Source', 'Source/**/*.{h,m,c}'
   # s.exclude_files = 'Classes/Exclude'
 
   # s.public_header_files = 'Classes/**/*.h'
